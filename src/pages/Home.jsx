@@ -140,6 +140,15 @@ const Home = () => {
           </h1>
           <img src={section6} alt="Descripción" className="w-full h-[500px] md:h-[457px] rounded-lg object-cover shadow-lg" />
         </div>
+        <div className="flex flex-col items-start">
+          <h2 className="text-gray-600 text-lg max-w-md">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aliquid quibusdam laboriosam voluptate voluptas 
+            repudiandae perferendis, ad voluptates, a, voluptatum eos iusto quo soluta quisquam sapiente debitis obcaecati temporibus doloribus!
+          </h2>
+          <button className="mt-4 px-6 py-3 bg-orange-500 hover:bg-orange-700 text-white font-bold rounded-lg transition duration-300">
+            Empezar Ahora
+          </button>
+        </div>
       </section>
     </div>
   );
